@@ -10,7 +10,7 @@ import {
 import moment from 'moment'
 import './user.css'
 
-const url = `https://randomuser.me/api/?results=4`;
+const url = `https://randomuser.me/api/?results=2`;
 const UserList = (props, ) => {
   const [userData, setUserData] = useState([]);
   const [activeUser, setActiveUser] = useState(false);

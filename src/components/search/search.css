@@ -1,0 +1,46 @@
+.find-user {
+    position: absolute;
+    left: 10rem;
+    top: 19rem;
+    width: 34rem;
+    height: 5.5rem;
+    padding-left: 5rem;
+  
+    background: rgba(108, 108, 108, 0.38);
+    border-radius: 20px;
+    border: #bcbcbc;
+    font-size: 20px;
+    font-weight: bold;
+    color: #d3d3d3;
+  }
+  
+  .search-icon-big {
+    position: absolute;
+    top: 21rem;
+    left: 11.7rem;
+    width: 2rem;
+    height: 2rem;
+    color: #d3d3d3;
+  }
+
+  /*smart phone*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .find-user {
+
+    left: 3rem;
+    top: 12rem;
+    width: 12rem;
+    height: 2rem;
+    padding-left: 3rem;
+    border-radius: 20px;
+    font-size: 12px;
+  }
+
+  .search-icon-big {
+    position: absolute;
+    top: 12.8rem;
+    left: 4.5rem;
+    width: .5rem;
+    height: .5rem;
+  }
+}

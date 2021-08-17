@@ -1,0 +1,498 @@
+.home-bg {
+  height: 110vh;
+  background-color: #2d304e;
+}
+
+.welcome-header {
+  top: 12rem;
+  left: 10rem;
+  color: #ffffff;
+  position: absolute;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.welcome-emerald {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 37px;
+}
+
+.welcome-sub-header {
+  position: absolute;
+  top: 15.3rem;
+  left: 10rem;
+  color: #bcbcbc;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.show-users {
+  position: absolute;
+  color: #cfcfcf;
+  left: 10rem;
+  top: 28rem;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.big-card {
+  position: absolute;
+  top: 33.625rem;
+  left: 10rem;
+  width: 9.3rem;
+  height: 9.3rem;
+
+  background: #cc6898;
+  border-radius: 20px;
+}
+
+.Users-icon {
+  position: absolute;
+  left: 13.33%;
+  right: 80.49%;
+  top: 25%;
+  bottom: 28.78%;
+
+  height: 5rem;
+  width: 7rem;
+
+  color: #fff;
+}
+
+.medium-card1 {
+  position: absolute;
+  top: 34.3rem;
+  left: 21.8rem;
+  width: 7.7rem;
+  height: 7.75rem;
+
+  background: #68ccc6;
+  border-radius: 20px;
+}
+
+.medium-card2 {
+  position: absolute;
+  top: 34.3rem;
+  left: 32.2rem;
+  width: 7.75rem;
+  height: 7.75rem;
+
+  background: #6a68cc;
+  border-radius: 20px;
+}
+
+.male-icon {
+  position: absolute;
+  left: 7%;
+  right: 70.56%;
+  top: 20%;
+  bottom: 28.22%;
+
+  height: 5rem;
+  width: 7rem;
+  color: #ffffff;
+}
+
+.female-icon {
+  position: absolute;
+  left: 7%;
+  right: 70.56%;
+  top: 20%;
+  bottom: 28.22%;
+
+  height: 5rem;
+  width: 7rem;
+  color: #ffffff;
+}
+
+.all-users {
+  position: absolute;
+  width: 4.5rem;
+  height: 1.3rem;
+  left: 12.6rem;
+  top: 44rem;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #cfcfcf;
+}
+
+.male-users {
+  position: absolute;
+  width: 6rem;
+  height: 1.3rem;
+  left: 23rem;
+  top: 43rem;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #cfcfcf;
+}
+
+.female-users {
+  position: absolute;
+  width: 7rem;
+  height: 1.3rem;
+  left: 32.6rem;
+  top: 43rem;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #cfcfcf;
+}
+
+.dashboard {
+  position: absolute;
+  width: 50rem;
+  height: 54.4rem;
+  left: 50rem;
+  top: 1rem;
+overflow: scroll;
+padding-bottom: 25rem;
+
+  background: #eaeaea;
+  border-radius: 20px;
+}
+
+.dash-h1 {
+  position: absolute;
+  width: 8.75rem;
+  height: 2.5rem;
+  left: 5.4rem;
+  top: 4.63rem;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 37px;
+  color: #000000;
+}
+
+.dash-h6 {
+  position: absolute;
+  width: 3.7rem;
+  height: 1.2rem;
+  left: 5.4rem;
+  top: 125px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #444444;
+}
+
+.find-in-list {
+  position: absolute;
+  left: 5.4rem;
+  top: 10.3rem;
+  width: 18.5rem;
+  height: 3rem;
+  padding-left: 3.5rem;
+
+  background: rgba(197, 197, 197, 0.58);
+  border-radius: 50px;
+  border: #c5c5c5;
+  font-size: 16px;
+  font-weight: bold;
+  color: #636363;
+  
+}
+
+.search-icon-small {
+  position: absolute;
+  top: 11.1rem;
+  left: 7rem;
+  width: 1.3rem;
+  height: 1.3rem;
+  color: #adadad;
+}
+
+.sort {
+  position: absolute;
+  width: 8.4rem;
+  height: 3rem;
+  left: 25.6rem;
+  top: 10.3rem;
+  padding-left: 1rem;
+
+  background: rgba(197, 197, 197, 0.58);
+  border-radius: 50px;
+  border: #bcbcbc;
+  font-size: 16px;
+  font-weight: bold;
+  outline: none;
+  color: #414141;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: "";
+  outline: none;
+}
+
+.angle-down {
+  position: absolute;
+  left: 62.51%;
+  right: 14.86%;
+  top: 20.31%;
+  bottom: 79.33%;
+  /* bottom: 79.33%; */
+
+  color: #000000;
+}
+
+.toggle {
+  position: absolute;
+  width: 3.6rem;
+  height: 2.2rem;
+  left: 36rem;
+  top: 10.9rem;
+
+  color: #56a69d;
+  border-radius: 20px;
+}
+
+.toggle-text {
+  position: absolute;
+  width: 7rem;
+  height: 2.2rem;
+  left: 39.8rem;
+  top: 11.4rem;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  color: #696969;
+}
+
+
+.dashboard-footer {
+  position: absolute;
+  width: 50rem;
+  margin-top: 46rem;
+  height: 9.4rem;
+  left: 50rem;
+  background: #eaeaea;
+  /* background: #550808a4; */
+  border-radius: 0px 0px 20px 20px;
+  z-index: 15;
+}
+
+.download-result {
+  width: 13.8rem;
+  height: 3rem;
+  color: #fff;
+  background-color: #6A68CC;
+  border: #6A68CC;
+  border-radius: 50px;
+  margin-top: 4rem;
+  margin-left: 5.2rem;
+}
+
+.download-icon{
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-left: -1rem;
+  margin-right: .5rem;
+}
+
+.download-name {
+  font-weight: bold;
+}
+
+
+.page-button-left{
+  width: 2rem;
+  height: 2rem;
+  margin-left: 21rem;
+  background: #CCCCCC;
+  border: #CCCCCC;
+  border-radius: 5px;
+}
+.page-button-right{
+  width: 2rem;
+  height: 2rem;
+  margin-left: 1rem;
+  background: #000;
+  border: #000;
+  border-radius: 5px;
+}
+
+.angle-side-left {
+  color: #6A68CC;
+}
+.angle-side-right {
+  color: #fff;
+}
+.arrow-left-icon {
+  margin-top: 15rem;
+  color: #56a69da9;
+  width: 1.7rem;
+  height: 1.7rem;
+  margin-left: 5.5rem;
+}
+
+
+/*smart phone*/
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+  * {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  
+  .home-bg {
+    /* height: 100vh;
+    width: 50vw; */
+    background-color: #2d304e;
+  
+  }
+  .welcome-header {
+    top: 5rem;
+    left: 3rem;
+    font-size: 20px;
+    line-height: 42px;
+  }
+  .welcome-emerald {
+    font-size: 20px;
+    line-height: 37px;
+  }
+  .welcome-sub-header {
+    top: 7.5rem;
+    left: 3rem;
+    font-size: 12px;
+    line-height: 21px;
+  }
+
+  .show-users {
+    left: 3rem;
+    top: 17rem;
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .big-card {
+    position: absolute;
+    top: 22rem;
+    left: 3rem;
+    width: 6.5rem;
+    height: 6.5rem;
+  }
+  
+  .Users-icon {
+    position: absolute;
+    left: -4%;
+    right: 80.49%;
+    top: 11%;
+    bottom: 28.78%;
+  
+    height: 5rem;
+    width: 7rem;
+  }
+  
+  .medium-card1 {
+    top: 22.5rem;
+    left: 11rem;
+    width: 6rem;
+    height: 6rem;
+  }
+  
+  .medium-card2 {
+    top: 22.5rem;
+    left: 19rem;
+    width: 6em;
+    height: 6rem;
+  
+    background: #6a68cc;
+    border-radius: 20px;
+  }
+  
+  .male-icon {
+    position: absolute;
+    left: 7%;
+    right: 70.56%;
+    top: 20%;
+    bottom: 28.22%;
+  
+    height: 5rem;
+    width: 7rem;
+    color: #ffffff;
+  }
+  
+  .female-icon {
+    position: absolute;
+    left: 7%;
+    right: 70.56%;
+    top: 20%;
+    bottom: 28.22%;
+  
+    height: 5rem;
+    width: 7rem;
+    color: #ffffff;
+  }
+  
+  .all-users {
+    position: absolute;
+    width: 4.5rem;
+    height: 1.3rem;
+    left: 12.6rem;
+    top: 44rem;
+  
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #cfcfcf;
+  }
+  
+  .male-users {
+    position: absolute;
+    width: 6rem;
+    height: 1.3rem;
+    left: 23rem;
+    top: 43rem;
+  
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #cfcfcf;
+  }
+  
+  .female-users {
+    position: absolute;
+    width: 7rem;
+    height: 1.3rem;
+    left: 32.6rem;
+    top: 43rem;
+  
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #cfcfcf;
+  }
+  }

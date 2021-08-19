@@ -24,23 +24,34 @@
   }
 
   /*smart phone*/
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) {
   .find-user {
 
-    left: 3rem;
-    top: 12rem;
-    width: 12rem;
-    height: 2rem;
-    padding-left: 3rem;
+    left: 15rem;
+    top: 40rem;
+    width: 46rem;
+    height: 7rem;
+    padding-left: 12rem;
     border-radius: 20px;
-    font-size: 12px;
+    font-size: 3rem;
   }
 
   .search-icon-big {
     position: absolute;
-    top: 12.8rem;
-    left: 4.5rem;
-    width: .5rem;
-    height: .5rem;
+    top: 40.8rem;
+    left: 18.5rem;
+    width: 5rem;
+    height: 5rem;
+  }
+}
+
+@media only screen and (min-device-width: 760px) and (max-device-width: 1034px) and (-webkit-device-pixel-ratio: 2) {
+  .find-user {
+    top: 32rem;
+  }
+
+  .search-icon-big {
+    top: 33.8rem;
+
   }
 }

@@ -9,7 +9,7 @@ import { FaSearch, FaUsers, FaMale, FaFemale, FaSortDown, FaToggleOn } from "rea
 
 const Home = (props) => {
   return (
-    <div className="home-bg">
+    <>
       <h2 className="welcome-header">
         Hello, <span className="welcome-emerald">Emerald</span>{" "}
       </h2>
@@ -40,7 +40,7 @@ const Home = (props) => {
       {/* <UserCard /> */}
       {/* <UserList /> */}
  
-    </div>
+    </>
   );
 };
 

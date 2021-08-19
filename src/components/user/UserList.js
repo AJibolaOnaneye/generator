@@ -9,8 +9,9 @@ import {
 
 import moment from 'moment'
 import './user.css'
+// import '../home.css'
 
-const url = `https://randomuser.me/api/?results=4`;
+const url = `https://randomuser.me/api/?results=3`;
 const UserList = (props, ) => {
   const [userData, setUserData] = useState([]);
   const [activeUser, setActiveUser] = useState(false);
@@ -84,7 +85,7 @@ const UserList = (props, ) => {
                 <button
                   key={index}
                   className="user-info"
-                  onClick={() => detailInfo(user)}
+                  onClick={() => detailInfo(userData.results)}
                 >
                   <FaArrowRight className="arrow-icon" />
                 </button>
@@ -94,15 +95,14 @@ const UserList = (props, ) => {
         } else if (activeUser && index) {
           return (
               <div key={index} className="user-detailed-Info">
-                <button className='history-btn'>
-                <FaArrowLeft className='arrow-left-icon' />
-
-                </button>
               <img
                 src={large}
                 alt={first}
                 className="block mx-auto rounded-full user-img-big"
               />
+                <button className='history-btn'>
+                <FaArrowLeft className='arrow-left-icon' />
+                </button>
               <h4 className="user-name-big">
                 {" "}
                 {title} {first} {last}

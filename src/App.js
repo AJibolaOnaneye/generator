@@ -6,9 +6,9 @@ import Home from './components/Home'
 function App() {
   return (
     <BrowserRouter>
-    <div className="App">
+    <>
   <Home />
-    </div>
+    </>
     </BrowserRouter>
   );
 }

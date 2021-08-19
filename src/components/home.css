@@ -1,7 +1,7 @@
-.home-bg {
+/* .home-bg {
   height: 110vh;
   background-color: #2d304e;
-}
+} */
 
 .welcome-header {
   top: 12rem;
@@ -117,11 +117,12 @@
 }
 
 .all-users {
-  position: absolute;
+  /* position: relative; */
   width: 4.5rem;
   height: 1.3rem;
-  left: 12.6rem;
-  top: 44rem;
+  /* left: 12.6rem; */
+  margin-top: 44rem;
+  margin-left: 12rem;
 
   font-style: normal;
   font-weight: normal;
@@ -131,11 +132,11 @@
 }
 
 .male-users {
-  position: absolute;
+  position: relative;
   width: 6rem;
   height: 1.3rem;
-  left: 23rem;
-  top: 43rem;
+  margin-left: 23rem;
+  margin-top: -3.3rem;
 
   font-style: normal;
   font-weight: normal;
@@ -145,11 +146,11 @@
 }
 
 .female-users {
-  position: absolute;
+  position: relative;
   width: 7rem;
   height: 1.3rem;
-  left: 32.6rem;
-  top: 43rem;
+  margin-left: 32.6rem;
+  margin-top: -2.3rem;
 
   font-style: normal;
   font-weight: normal;
@@ -164,9 +165,8 @@
   height: 54.4rem;
   left: 50rem;
   top: 1rem;
-overflow: scroll;
-padding-bottom: 25rem;
-
+  overflow: scroll;
+  padding-bottom: 25rem;
   background: #eaeaea;
   border-radius: 20px;
 }
@@ -213,7 +213,6 @@ padding-bottom: 25rem;
   font-size: 16px;
   font-weight: bold;
   color: #636363;
-  
 }
 
 .search-icon-small {
@@ -286,11 +285,10 @@ select {
   color: #696969;
 }
 
-
 .dashboard-footer {
   position: absolute;
   width: 50rem;
-  margin-top: 46rem;
+  top: 46rem;
   height: 9.4rem;
   left: 50rem;
   background: #eaeaea;
@@ -303,34 +301,33 @@ select {
   width: 13.8rem;
   height: 3rem;
   color: #fff;
-  background-color: #6A68CC;
-  border: #6A68CC;
+  background-color: #6a68cc;
+  border: #6a68cc;
   border-radius: 50px;
   margin-top: 4rem;
   margin-left: 5.2rem;
 }
 
-.download-icon{
+.download-icon {
   width: 2.5rem;
   height: 2.5rem;
   margin-left: -1rem;
-  margin-right: .5rem;
+  margin-right: 0.5rem;
 }
 
 .download-name {
   font-weight: bold;
 }
 
-
-.page-button-left{
+.page-button-left {
   width: 2rem;
   height: 2rem;
   margin-left: 21rem;
-  background: #CCCCCC;
-  border: #CCCCCC;
+  background: #cccccc;
+  border: #cccccc;
   border-radius: 5px;
 }
-.page-button-right{
+.page-button-right {
   width: 2rem;
   height: 2rem;
   margin-left: 1rem;
@@ -340,7 +337,7 @@ select {
 }
 
 .angle-side-left {
-  color: #6A68CC;
+  color: #6a68cc;
 }
 .angle-side-right {
   color: #fff;
@@ -353,146 +350,354 @@ select {
   margin-left: 5.5rem;
 }
 
-
 /*smart phone*/
-@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) {
   * {
     margin: 0;
     box-sizing: border-box;
   }
   body {
-    overflow-x: hidden;
-  }
-  
-  .home-bg {
-    /* height: 100vh;
-    width: 50vw; */
+    /* overflow-x: hidden; */
+    width: 100vw;
     background-color: #2d304e;
-  
+  }
+
+  .home-bg {
+    /* height: 100vh; */
+    /* width: 100vw;  */
   }
   .welcome-header {
-    top: 5rem;
-    left: 3rem;
-    font-size: 20px;
+    top: 20rem;
+    left: 10rem;
+    font-size: 7rem;
     line-height: 42px;
+    display: flex;
   }
   .welcome-emerald {
-    font-size: 20px;
+    font-size: 9rem;
     line-height: 37px;
   }
   .welcome-sub-header {
-    top: 7.5rem;
-    left: 3rem;
-    font-size: 12px;
-    line-height: 21px;
+    top: 29rem;
+    /* left: 2rem; */
+    left: 2.5rem;
+    font-size: 3rem;
+    line-height: 3rem;
+    width: 22em;
+    text-align: justify;
   }
 
   .show-users {
-    left: 3rem;
-    top: 17rem;
-    font-size: 18px;
+    left: 11rem;
+    top: 51rem;
+    font-size: 3rem;
     line-height: 26px;
+    position: relative;
   }
 
   .big-card {
     position: absolute;
-    top: 22rem;
-    left: 3rem;
-    width: 6.5rem;
-    height: 6.5rem;
+    top: 60rem;
+    left: 5rem;
+    width: 18.5rem;
+    height: 18.5rem;
   }
-  
+
   .Users-icon {
     position: absolute;
-    left: -4%;
+    left: 4%;
     right: 80.49%;
     top: 11%;
     bottom: 28.78%;
-  
-    height: 5rem;
-    width: 7rem;
+
+    height: 15rem;
+    width: 17rem;
   }
-  
+
   .medium-card1 {
-    top: 22.5rem;
-    left: 11rem;
-    width: 6rem;
-    height: 6rem;
+    top: 60.5rem;
+    left: 28rem;
+    width: 17.5rem;
+    height: 17.5rem;
   }
-  
+
   .medium-card2 {
-    top: 22.5rem;
-    left: 19rem;
-    width: 6em;
-    height: 6rem;
-  
+    top: 60.5rem;
+    left: 49rem;
+    width: 17.5em;
+    height: 17.5rem;
+
     background: #6a68cc;
     border-radius: 20px;
   }
-  
+
   .male-icon {
     position: absolute;
-    left: 7%;
+    left: 4%;
     right: 70.56%;
-    top: 20%;
+    top: 9%;
     bottom: 28.22%;
-  
-    height: 5rem;
-    width: 7rem;
+
+    height: 15rem;
+    width: 17rem;
     color: #ffffff;
   }
-  
+
   .female-icon {
     position: absolute;
-    left: 7%;
+    left: 4%;
     right: 70.56%;
-    top: 20%;
+    top: 9%;
     bottom: 28.22%;
-  
-    height: 5rem;
-    width: 7rem;
+
+    height: 15rem;
+    width: 17rem;
     color: #ffffff;
+  }
+
+  .all-users {
+    position: relative;
+    margin-top: 79rem;
+    margin-left: 10rem;
+    font-size: 3rem;
+    line-height: 1rem;
+    color: #cfcfcf;
+    display: flex;
+    width: 12rem;
+  }
+
+  .male-users {
+    position: relative;
+    margin-top: -3rem;
+    margin-left: 30rem;
+    font-size: 3rem;
+    line-height: 1rem;
+    color: #cfcfcf;
+    display: flex;
+    width: 15rem;
+  }
+
+  .female-users {
+    position: relative;
+    margin-top: -2rem;
+    margin-left: 49.5rem;
+    margin-right: 12rem;
+    font-size: 3rem;
+    line-height: 1rem;
+    color: #cfcfcf;
+    display: flex;
+    width: 19rem;
+  }
+
+  .dashboard {
+    position: relative;
+    width: 62rem;
+    height: 54.4rem;
+    left: 4rem;
+    /* top: 2rem; */
+    margin-top: 5rem;
+    margin-bottom: 7em;
+    overflow: scroll;
+    padding-bottom: 25rem;
+
+    background: #eaeaea;
+    border-radius: 20px;
+  }
+
+  .dashboard-footer {
+    position: absolute;
+    width: 62rem;
+    top: 133rem;
+    height: 9.4rem;
+    left: 4rem;
+    /* padding-bottom: 52em; */
+  }
+
+  .dash-h1 {
+    position: absolute;
+    width: 14rem;
+    height: 2.5rem;
+    font-size: 3rem;
+  }
+
+  .dash-h6 {
+    position: absolute;
+    width: 7rem;
+    height: 1.2rem;
+    left: 5.4rem;
+    top: 125px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    line-height: 19px;
+    color: #444444;
+  }
+
+  .find-in-list {
+    position: absolute;
+    left: 5.4rem;
+    top: 10.3rem;
+    width: 22.5rem;
+    height: 4rem;
+    padding-left: 5.5rem;
+    font-size: 1.5rem;
+  }
+
+  .search-icon-small {
+    position: absolute;
+    top: 11.5rem;
+    left: 7rem;
+    width: 2rem;
+    height: 2rem;
+    color: #adadad;
+  }
+
+  .sort {
+    width: 13rem;
+    height: 4rem;
+    left: 30rem;
+    top: 10.3rem;
+    padding-left: 1rem;
+    font-size: 1.2rem;
+  }
+
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 0.5rem;
+    text-overflow: "";
+    outline: none;
+  }
+
+  .angle-down {
+    left: 63.51%;
+    right: 14.86%;
+    top: 20.31%;
+    bottom: 79.33%;
+    /* bottom: 79.33%; */
+    font-size: 1.8rem;
+    color: #000000;
+  }
+
+  .toggle {
+    position: absolute;
+    width: 3.6rem;
+    height: 2.7rem;
+    left: 44rem;
+    top: 10.9rem;
+  }
+
+  .toggle-text {
+    width: 10rem;
+    left: 48rem;
+    top: 11.6rem;
+    font-size: 1.3rem;
+  }
+
+  .page-button-left {
+    width: 2rem;
+    height: 2rem;
+    margin-left: 21rem;
+    background: #cccccc;
+    border: #cccccc;
+    border-radius: 5px;
+  }
+  .page-button-right {
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+    background: #000;
+    border: #000;
+    border-radius: 5px;
+  }
+
+  .download-result {
+    width: 20rem;
+    height: 4rem;
+    color: #fff;
+    background-color: #6a68cc;
+    border: #6a68cc;
+    border-radius: 50px;
+    margin-top: 4rem;
+    padding-top: 0.5rem;
+    margin-left: 5.2rem;
+  }
+
+  .download-icon {
+    width: 3.5rem;
+    height: 3.5rem;
+    /* margin-left: 1rem; */
+    margin-right: 1.5rem;
+  }
+
+  .download-name {
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-top: 5rem;
+  }
+
+  .page-button-left {
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-left: 21rem;
+    background: #cccccc;
+    border: #cccccc;
+    border-radius: 5px;
+  }
+  .page-button-right {
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-left: 1rem;
+    background: #000;
+    border: #000;
+    border-radius: 5px;
+  }
+
+  .angle-side-left {
+    color: #6a68cc;
+    font-size: 2rem;
+  }
+  .angle-side-right {
+    color: #fff;
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (min-device-width: 760px) and (max-device-width: 1034px) and (-webkit-device-pixel-ratio: 2) {
+  .welcome-header {
+    top: 25rem;
+  }
+
+  .welcome-sub-header {
+    top: 28.3rem;
+  }
+
+  .show-users {
+    top: 39rem;
+  }
+
+  .big-card {
+
+    top: 43.625rem;
+  }
+
+  .medium-card1, .medium-card2  {
+    top: 44.3rem;
   }
   
   .all-users {
-    position: absolute;
-    width: 4.5rem;
-    height: 1.3rem;
-    left: 12.6rem;
-    top: 44rem;
-  
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 21px;
-    color: #cfcfcf;
+    margin-top: 54rem;
   }
-  
-  .male-users {
-    position: absolute;
-    width: 6rem;
-    height: 1.3rem;
-    left: 23rem;
-    top: 43rem;
-  
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 21px;
-    color: #cfcfcf;
+
+  .dashboard {
+    top: 15rem;
+    margin-left: -2rem;
   }
-  
-  .female-users {
-    position: absolute;
-    width: 7rem;
-    height: 1.3rem;
-    left: 32.6rem;
-    top: 43rem;
-  
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 21px;
-    color: #cfcfcf;
+
+  .dashboard-footer {
+    top: 60rem;
+    margin-left: -2rem;
   }
-  }
+
+}
